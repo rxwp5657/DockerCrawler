@@ -1,0 +1,17 @@
+version: '3'
+services:
+  crawler:
+    build: ./ExtraCrawler
+    volumes:
+      - ./resultsA-H:/Crawler/results
+    command: ["python", "extra.py", "https://www.duden.de/rechtschreibung/Aa_Kot", "https://www.duden.de/rechtschreibung/Homebase_Mal_Baseball"]
+  crawler2:
+    build: ./ExtraCrawler
+    volumes:
+      - ./resultsH-P:/Crawler/results
+    command: ["python", "extra.py", "https://www.duden.de/rechtschreibung/Homebase_Basis_Station_Heimat", "https://www.duden.de/rechtschreibung/p_Penny_piano_Punkt"]
+  crawler3:
+    build: ./ExtraCrawler
+    volumes:
+      - ./resultsP-Z:/Crawler/results
+    command: ["python", "extra.py", "https://www.duden.de/rechtschreibung/p_Penny_piano_Punkt", "https://www.duden.de/rechtschreibung/Zytotoxizitaet"]
