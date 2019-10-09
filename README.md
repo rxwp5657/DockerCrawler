@@ -15,7 +15,8 @@ Sections:
 4. Type the commands:
     - `docker-compose build`
     - `docker-compose up -d`
-    - You should see the following output: ![alt-text](pictures/docker-start)
+    - You should see the following output: 
+    - ![alt-text](pictures/docker-start)
 5. The previous output means that three crawlers where made and that are running already...
 6. If everything is OK, you should see the following on the files
     + `./resultsA-H/words.txt`
