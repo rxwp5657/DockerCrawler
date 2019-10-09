@@ -13,9 +13,9 @@ Sections:
 2. Clone this repository wherever you like: https://github.com/rxwp5657/DockerCrawler.git
 3. Change to the project directory: `cd DockerCrawler`
 4. Type the commands:
-    +`docker-compose build`
-    +`docker-compose up -d`
-    + You should see the following output: ![alt-text](pictures/docker-start)
++`docker-compose build`
++`docker-compose up -d`
++ You should see the following output: ![alt-text](pictures/docker-start)
 5. The previous output means that three crawlers where made and that are running already...
 6. If everything is OK, you should see the following on the files
     + `./resultsA-H/words.txt`
